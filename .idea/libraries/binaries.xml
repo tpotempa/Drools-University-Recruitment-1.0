@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="binaries">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/libraries/drools/binaries" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/libraries/drools/binaries" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/libraries/drools/binaries" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libraries/drools/binaries" recursive="false" type="SOURCES" />
+  </library>
+</component>
