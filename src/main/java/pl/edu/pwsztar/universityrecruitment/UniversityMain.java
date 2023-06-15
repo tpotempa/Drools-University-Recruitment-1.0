@@ -18,6 +18,5 @@ public class UniversityMain {
 		kSession.fireAllRules();
 
 		kSession.dispose();
-		
 	}
 }
