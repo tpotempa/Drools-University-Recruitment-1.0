@@ -10,11 +10,11 @@ public class UniversityMain {
 		KieServices ks = KieServices.Factory.get();
 		KieContainer kContainer = ks.getKieClasspathContainer();
 		KieSession kSession = kContainer.newKieSession("ksession-rules");
-		
+
 		UniversityCandidate uc = new UniversityCandidate(1L, "Anna", "Kowalewska", 120, Boolean.FALSE);
 
-		kSession.insert(uc);		
-		
+		kSession.insert(uc);
+
 		kSession.fireAllRules();
 
 		kSession.dispose();
