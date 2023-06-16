@@ -2,6 +2,7 @@
 <kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
 	<kbase name="rules" packages="rules">
 		<ksession name="ksession-rules" />
+		<ksession name="ksession-rules-stateless" type="stateless" default="true"/>
 	</kbase>
 	<kbase name="dtables" packages="dtables">
 		<ksession name="ksession-dtables" />
